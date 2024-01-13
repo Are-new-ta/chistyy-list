@@ -1,0 +1,273 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 360px;
+  min-height: 100px;
+  margin: auto;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #F5F5F5;
+}
+
+.content-section_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+/* стили для header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 24px 20px;
+}
+
+.header__logo {
+  display: block;
+  width: 78px;
+}
+
+.header__logo-image {
+  width: 100%;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+.header__menu-link {
+  font-weight: 'Inter', serif;
+  font-weight: 400;
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.header__menu-item_active .header__menu-list {
+  text-decoration: none;
+}
+
+/* стили для cover */
+.cover {
+  padding: 7px 24px 30px 20px;
+  background-image: url(../images/cover.svg);
+  min-height: 220px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
+}
+
+.cover__title {
+  width: 100%;
+  font-family: 'EB Garamond';
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1;
+}
+
+.accept-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* стили для intro */
+.intro {
+  padding: 0 20px 38px;
+}
+
+.into__haeding {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  align-items: flex-start;
+}
+
+.into__title,
+.into__date {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  color: #CCCCCC;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.into__date {
+  white-space: nowrap;
+}
+
+.into__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  color: #F5F5F5;
+  font-size: 16px;
+  line-height: 1.35;
+  margin-top: 24px;
+}
+
+/* стили для reasons */
+.reasons {
+  padding: 40px 20px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 0 16px;
+}
+
+.content-section__subtitle {
+  margin-bottom: 32px;
+  width: 100%;
+  font-family: 'EB Garamond', serif;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.15;
+}
+
+.content-section__introduction {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
+  margin: 0 0 32px;
+}
+
+.content-section__list-item {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.content-section__list-accept {
+  font-family: 'Inter', serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+/* стили для how-to */
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px;
+  min-height: fit-content;
+}
+
+.card_theme_dark {
+  background-color: #343434;
+  color: #F5F5F5;
+}
+
+.card_theme_bright {
+  background-color: #FEE42A;
+  color: #131313;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__author {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card__author-photo {
+  width: 100px;
+}
+
+.card__author-name {
+  font-family: 'Inter', serif;
+  color: #F5F5F5;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.card__title {
+  width: 100%;
+  font-family: 'EB Garamond';
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.card__text {
+  font-family: 'Inter', serif;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+/* стили для footer*/
+.footer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #FEE42A;
+}
+
+.footer__links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+}
+
+.footer__link {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  color: #F5F5F5;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 135%;
+}
