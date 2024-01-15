@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://ibb.co/bg3TBxk][img]https://i.ibb.co/6RZzP2k/2024-01-15-22-30-11.png" alt="скриншот первой части страницы" border="0">
+  <img src="https://i.ibb.co/6RZzP2k/2024-01-15-22-30-11.png" alt="скриншот первой части страницы" border="0">
 </div>
 
 # "С чистого листа" (основы HTML и CSS)
